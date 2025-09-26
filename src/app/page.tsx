@@ -13,7 +13,7 @@ export default async function Home() {
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
       <div className="max-w-md w-full space-y-8 text-center">
         <div>
-          <h1 className="text-4xl font-bold text-gray-900">Task Management</h1>
+          <h1 className="text-4xl font-bold text-gray-900">Ceklis</h1>
           <p className="mt-2 text-gray-600">
             Kanban board and task management tool for product design teams
           </p>

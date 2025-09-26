@@ -12,7 +12,8 @@ import {
   Tag,
   BookOpen,
   Calendar,
-  CheckCircle
+  CheckCircle,
+  ClipboardCheck
 } from 'lucide-react'
 import { cn } from '@/lib/utils'
 
@@ -38,8 +39,11 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
 
   const SidebarContent = () => (
     <div className="flex grow flex-col gap-y-5 overflow-y-auto bg-white dark:bg-zinc-900 px-6 pb-4 transition-colors">
-      <div className="flex h-16 shrink-0 items-center">
-        <h1 className="text-xl font-bold text-gray-900 dark:text-zinc-100">Task Management</h1>
+      <div className="flex h-16 shrink-0 items-center gap-3">
+        <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-orange-600/10 text-orange-600 dark:bg-orange-500/15 dark:text-orange-300">
+          <ClipboardCheck className="h-6 w-6" />
+        </div>
+        <h1 className="text-xl font-bold text-gray-900 dark:text-zinc-100">Ceklis</h1>
       </div>
       <nav className="flex flex-1 flex-col">
         <ul role="list" className="flex flex-1 flex-col gap-y-7">

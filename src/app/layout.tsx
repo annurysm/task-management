@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Task Management - Product Design Team",
-  description: "Kanban board and task management tool for product design teams",
+  title: "Ceklis – Task Management for Product Design Teams",
+  description: "Ceklis is a collaborative Kanban and planning hub for product design teams",
 };
 
 export default function RootLayout({
