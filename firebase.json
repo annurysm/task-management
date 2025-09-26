@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "site": "ceklis-a3143",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "us-central1"
+      }
+    }
+  ]
+}
